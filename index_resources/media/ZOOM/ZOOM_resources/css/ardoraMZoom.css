@@ -1,0 +1,18 @@
+/*Creado con Ardora - www.webardora.net
+bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor*/
+.ui-corner-all{ -webkit-border-radius: 0px; border-radius: 0px;}
+body{background-color:black;}
+#ardoraMain{ font-family:Verdana, Geneva, sans-serif; color: #F0F0F0; padding: 5px; position: relative;}
+#ardoraEnu{ font-size: 12px; position: relative; padding: 5px; margin-bottom: 10px;
+text-align: justify;
+}
+#ardora_zoom {display:table-row;position:relative;width:100%;margin:0px auto 0px;padding:10px;}
+#container_zoom h1 {color:#FFFFFF;font-size:20px;}
+#container_zoom p {color:#666666;text-align:center;font-size:11px;}
+a img {border:none;}
+#zoomer{width:420px;height:280px;display:block;position:absolute;overflow:hidden;margin:10px;border:1px #000000 solid;border-color:#000000;cursor:move;}
+#zoomer_image {display:block;position:absolute;}
+#zoomer_thumb {display:block;left:435px;position:relative;overflow:hidden;margin:10px;border:1px #000000 solid;border-color:#000000;background-color: #FF8000;
+width:210px;height:140px;background-image: url("../media/t_840_560.jpeg");}
+#zoomer_region {background-color:#FFFFFF;border:none;position:absolute;top:0px;left:0px;cursor:move;opacity: .7;width:105px;height:70px;}

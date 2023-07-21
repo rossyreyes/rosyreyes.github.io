@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoranumGra-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title></title>
+<link type="text/css" href="CRUCIGRAMAS_resources/css/ardoranumGra.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="CRUCIGRAMAS_resources/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="CRUCIGRAMAS_resources/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="CRUCIGRAMAS_resources/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="CRUCIGRAMAS_resources/js/ardoranumGraCFG.js"></script>
+<script language="javascript" type="text/javascript" src="CRUCIGRAMAS_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="CRUCIGRAMAS_resources/js/ardoranumGra.js"></script>
+<script language="javascript" type="text/javascript" src="CRUCIGRAMAS_resources/js/ardoraTab.js"></script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<audio id="audioFelicitacion">
+<source src="CRUCIGRAMAS_resources/media/Applause_02_Sound_Effect_Mp3_73.mp3" type="audio/mp3">
+</audio>
+<audio id="audioTempo">
+<source src="CRUCIGRAMAS_resources/media/time_bomb.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="CRUCIGRAMAS_resources/media/megaman-x-error.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"></div>
+  <div id="ardoraAct">
+  <table  id="tableNG">
+<tr>
+<td class="ngCell" id="c0_0"><input id="ic0_0" name="ic0_0" type="text" class="cell" /></td>
+<td id="s1_0">+</td>
+<td class="ngCell" id="c2_0"><input id="ic2_0" name="ic2_0" type="text" class="cell" /></td>
+<td id="s3_0">-</td>
+<td class="ngCell" id="c4_0"><input id="ic4_0" name="ic4_0" type="text" class="cell" /></td>
+<td class="sol" id="r5_0">10</td>
+</tr>
+<tr>
+<td id="s0_1">+</td>
+<td class="blackCell" id="b1_1"></td>
+<td id="s2_1">*</td>
+<td class="blackCell" id="b3_1"></td>
+<td id="s4_1">+</td>
+<td class="blackCell" id="b5_1"></td>
+</tr>
+<tr>
+<td class="ngCell" id="c0_2"><input id="ic0_2" name="ic0_2" type="text" class="cell" /></td>
+<td id="s1_2">*</td>
+<td class="ngCell" id="c2_2"><input id="ic2_2" name="ic2_2" type="text" class="cell" /></td>
+<td id="s3_2">-</td>
+<td class="ngCell" id="c4_2"><input id="ic4_2" name="ic4_2" type="text" class="cell" /></td>
+<td class="sol" id="r5_2">10</td>
+</tr>
+<tr>
+<td id="s0_3">-</td>
+<td class="blackCell" id="b1_3"></td>
+<td id="s2_3">+</td>
+<td class="blackCell" id="b3_3"></td>
+<td id="s4_3">+</td>
+<td class="blackCell" id="b5_3"></td>
+</tr>
+<tr>
+<td class="ngCell" id="c0_4"><input id="ic0_4" name="ic0_4" type="text" class="cell" /></td>
+<td id="s1_4">+</td>
+<td class="ngCell" id="c2_4"><input id="ic2_4" name="ic2_4" type="text" class="cell" /></td>
+<td id="s3_4">+</td>
+<td class="ngCell" id="c4_4"><input id="ic4_4" name="ic4_4" type="text" class="cell" /></td>
+<td class="sol" id="r5_4">14</td>
+</tr>
+<tr>
+<td class="sol" id="r0_5">10</td>
+<td class="blackCell" id="b1_5"></td>
+<td class="sol" id="r2_5">10</td>
+<td class="blackCell" id="b3_5"></td>
+<td class="sol" id="r4_5">10</td>
+<td class="blackCell" id="b5_5"></td>
+</tr>
+   </table>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="88"></canvas>
+  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+</body></html>

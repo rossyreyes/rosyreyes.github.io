@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraTartas-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title></title>
+<link type="text/css" href="GRAF_CIRCULAR_resources/css/ardoraPies.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="GRAF_CIRCULAR_resources/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="GRAF_CIRCULAR_resources/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="GRAF_CIRCULAR_resources/js/jquery.ui.touch-punch.min.js"></script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<audio id="audioFelicitacion">
+<source src="GRAF_CIRCULAR_resources/media/Applause_02_Sound_Effect_Mp3_73.mp3" type="audio/mp3">
+</audio>
+<audio id="audioTempo">
+<source src="GRAF_CIRCULAR_resources/media/time_bomb.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="GRAF_CIRCULAR_resources/media/mario-kart-perdiste-perder-loser.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"><SPAN style="font-size:18px;color:#008080"><b>COLOCA LOS PORCENTAJES </b></SPAN></div>
+<div id="pieTitle">CRIANZA DE ANIMALES DOMESTICOS</div>
+<div id="ardoraAct">
+<div id="colorPanel">
+<table border="0">
+<tr><td width="25"></td><td></td>
+<td>Valor</td>
+</tr>
+<tr><td><span id="c0" class="bColor"></span></td><td><p id="p0">PERRO</p></td>
+<td><select id="D0">
+<option value="0">0</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="150">150</option>
+<option value="200">200</option>
+<option value="250">250</option>
+<option value="300">300</option>
+<option value="350">350</option>
+<option value="400">400</option>
+<option value="450">450</option>
+<option value="500">500</option>
+<option value="550">550</option>
+<option value="600">600</option>
+<option value="650">650</option>
+<option value="700">700</option>
+<option value="750">750</option>
+<option value="800">800</option>
+<option value="850">850</option>
+<option value="900">900</option>
+<option value="950">950</option>
+<option value="1000">1000</option>
+</select></td>
+</tr>
+<tr><td><span id="c1" class="bColor"></span></td><td><p id="p1">GATO</p></td>
+<td><select id="D1">
+<option value="0">0</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="150">150</option>
+<option value="200">200</option>
+<option value="250">250</option>
+<option value="300">300</option>
+<option value="350">350</option>
+<option value="400">400</option>
+<option value="450">450</option>
+<option value="500">500</option>
+<option value="550">550</option>
+<option value="600">600</option>
+<option value="650">650</option>
+<option value="700">700</option>
+<option value="750">750</option>
+<option value="800">800</option>
+<option value="850">850</option>
+<option value="900">900</option>
+<option value="950">950</option>
+<option value="1000">1000</option>
+</select></td>
+</tr>
+<tr><td><span id="c2" class="bColor"></span></td><td><p id="p2">GALLINA</p></td>
+<td><select id="D2">
+<option value="0">0</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="150">150</option>
+<option value="200">200</option>
+<option value="250">250</option>
+<option value="300">300</option>
+<option value="350">350</option>
+<option value="400">400</option>
+<option value="450">450</option>
+<option value="500">500</option>
+<option value="550">550</option>
+<option value="600">600</option>
+<option value="650">650</option>
+<option value="700">700</option>
+<option value="750">750</option>
+<option value="800">800</option>
+<option value="850">850</option>
+<option value="900">900</option>
+<option value="950">950</option>
+<option value="1000">1000</option>
+</select></td>
+</tr>
+<tr><td><span id="c3" class="bColor"></span></td><td><p id="p3">POLLO</p></td>
+<td><select id="D3">
+<option value="0">0</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="150">150</option>
+<option value="200">200</option>
+<option value="250">250</option>
+<option value="300">300</option>
+<option value="350">350</option>
+<option value="400">400</option>
+<option value="450">450</option>
+<option value="500">500</option>
+<option value="550">550</option>
+<option value="600">600</option>
+<option value="650">650</option>
+<option value="700">700</option>
+<option value="750">750</option>
+<option value="800">800</option>
+<option value="850">850</option>
+<option value="900">900</option>
+<option value="950">950</option>
+<option value="1000">1000</option>
+</select></td>
+</tr>
+<tr><td><span id="c4" class="bColor"></span></td><td><p id="p4">HAMSTER</p></td>
+<td><select id="D4">
+<option value="0">0</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="150">150</option>
+<option value="200">200</option>
+<option value="250">250</option>
+<option value="300">300</option>
+<option value="350">350</option>
+<option value="400">400</option>
+<option value="450">450</option>
+<option value="500">500</option>
+<option value="550">550</option>
+<option value="600">600</option>
+<option value="650">650</option>
+<option value="700">700</option>
+<option value="750">750</option>
+<option value="800">800</option>
+<option value="850">850</option>
+<option value="900">900</option>
+<option value="950">950</option>
+<option value="1000">1000</option>
+</select></td>
+</tr>
+<tr><td><span id="c5" class="bColor"></span></td><td><p id="p5">CORDERO</p></td>
+<td><select id="D5">
+<option value="0">0</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="150">150</option>
+<option value="200">200</option>
+<option value="250">250</option>
+<option value="300">300</option>
+<option value="350">350</option>
+<option value="400">400</option>
+<option value="450">450</option>
+<option value="500">500</option>
+<option value="550">550</option>
+<option value="600">600</option>
+<option value="650">650</option>
+<option value="700">700</option>
+<option value="750">750</option>
+<option value="800">800</option>
+<option value="850">850</option>
+<option value="900">900</option>
+<option value="950">950</option>
+<option value="1000">1000</option>
+</select></td>
+</tr>
+</table>
+</div>
+<canvas aria-label="" id="ardoraCanvasPie" width="300" height="300"></canvas>
+<svg id="s_pointer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300px" height="300px"></svg>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="88"></canvas>
+  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+</body>
+<script language="javascript" type="text/javascript" src="GRAF_CIRCULAR_resources/js/ardoraPiesCFG.js"></script>
+<script language="javascript" type="text/javascript" src="GRAF_CIRCULAR_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="GRAF_CIRCULAR_resources/js/ardoraPies.js"></script>
+<script language="javascript" type="text/javascript" src="GRAF_CIRCULAR_resources/js/ardoraTab.js"></script>
+</html>

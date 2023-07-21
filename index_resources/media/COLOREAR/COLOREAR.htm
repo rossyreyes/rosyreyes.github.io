@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraColorea-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title></title>
+<link type="text/css" href="COLOREAR_resources/css/ardoraColorea.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="COLOREAR_resources/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="COLOREAR_resources/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="COLOREAR_resources/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="COLOREAR_resources/js/ardoraColoreaCFG.js"></script>
+<script language="javascript" type="text/javascript" src="COLOREAR_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="COLOREAR_resources/js/ardoraColorea.js"></script>
+<script language="javascript" type="text/javascript" src="COLOREAR_resources/js/ardoraTab.js"></script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<audio id="audioFelicitacion">
+<source src="COLOREAR_resources/media/Applause_02_Sound_Effect_Mp3_73.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="COLOREAR_resources/media/error-fallo-1.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"></div>
+  <div id="ardoraAct">
+<svg id="s_pointer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="292px" height="400px">
+<line id="vertical" x1="0" y1="0" x2="0" y2="400" style="stroke:rgb(255,0,0);stroke-width:1" />
+<line id="horizontal" x1="0" y1="0" x2="292" y2="0" style="stroke:rgb(255,0,0);stroke-width:1" />
+<circle id="c_point" cx="0" cy="0" r="5"style="opacity:0.1;stroke:rgb(255,0,0);stroke-width:2"/></svg>
+  <canvas id="ardoraCanvasPaint" aria-label="Image to paint" width="292px" height="400px"></canvas>
+  <div id="colorPanel">
+<li><span class="bColor" id="c0"></span><p id="p0">ZANAHORIA</p></li>
+<li><span class="bColor" id="c1"></span><p id="p1">HOJAS</p></li>
+<li><span class="bColor" id="c2"></span><p id="p2">OREJITA</p></li>
+<li><span class="bColor" id="c3"></span><p id="p3">CABEZA</p></li>
+<li><span class="bColor" id="c4"></span><p id="p4">BRAZO</p></li>
+<li><span class="bColor" id="c5"></span><p id="p5">HUELLAS</p></li>
+  </div>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="88"></canvas>
+  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+</body></html>
